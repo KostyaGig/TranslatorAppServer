@@ -12,13 +12,11 @@ app = Flask(__name__)
 #   private val translatorWord
 # )
 
-
 SUCCESS_MARK = "Success"
 FAILURE_MARK = "Failure"
 
 RU_LANGUAGE = "ru"
 EN_LANGUAGE = "en"
-
 
 @app.route('/')
 def index():
